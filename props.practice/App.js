@@ -3,10 +3,11 @@ import Joke from "./Joke"
 
 export default function App(){
     return(
+    
         <div>
             <Joke
-                setup= ""
-                punchline=""
+                setup= "i love God to shine way"
+                punchline=" please God"
             />
             <Joke
                 setup= " I got my daughter a fridge for her birthday"
