@@ -1,10 +1,13 @@
 import React from "react"
 import Joke from "./Joke"
-
+import jokesData from "./jokesData"
 export default function App(){
+    const jokesElement = jokesData.map(joke => {return <Joke
+        punchline={joke.puchline} setup={joke.setup} />})
     return(
     
         <div>
+            {jokes}
             <Joke
                 setup= "i love God to shine way"
                 punchline=" please God"
